@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dion Quinco</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="profile">
+        <section class="portrait" aria-label="Dion Quinco portrait">
+            <img src="assets/dion.png" alt="Dion Quinco">
+            <video class="random-video" playsinline hidden></video>
+        </section>
+
+        <section class="intro">
+            <p class="eyebrow">Profile</p>
+            <h1>DION<br>QUINCO</h1>
+            <div class="copy">
+                <p>Gusto ko bj (buko juice)</p>
+                <p>Gege boi.</p>
+            </div>
+            <form class="search" role="search">
+                <label class="visually-hidden" for="site-search">Search</label>
+                <input id="site-search" name="q" type="search" placeholder="Search" autocomplete="off">
+                <button type="submit" aria-label="Submit search">Go</button>
+            </form>
+            <p class="search-status" aria-live="polite"></p>
+            <button class="video-button" type="button" aria-label="Play a random video">CLICK</button>
+        </section>
+    </main>
+</body>
+</html>
